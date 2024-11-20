@@ -1,0 +1,139 @@
+
+*{
+  font-family:Roboto;
+  color: white;
+}
+.header_container{
+  display: flex;
+  justify-content: space-between;
+}
+.header_navigation{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.header_container li{
+  border-bottom: solid black 2px;
+  margin-right: 8px;
+}
+.header_container li a {
+ text-decoration: none;
+}
+.heder_logo{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.first_container{
+  background-color: #1F2937;
+  display: block;
+  padding: 70px;
+  height: auto;
+  width: auto;
+}
+.header_container .header_logo p{
+  color: white;
+}
+.about_container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.second_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third_container{
+  background-color: antiquewhite;
+}
+.text_box{
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.picture_row div p {
+  color: black;
+}
+
+.side_text h1{
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+.header_container .header_navigation,
+.about_container .side_text P{
+  color: #E5E7EB;
+  font-size: 18PX;
+}
+.header_logo{
+  color: #F9FAF8;
+  font-size: 24PX;
+}
+button{
+   color: white;
+   background-color: #3882F6;
+   border-radius: 10px;
+   border: solid white 2px;
+   width: 64px;
+   height: 32px;
+}
+.second_container h1{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.third_container{
+  background-color: #e5e7eb;
+}
+.third_container p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: 100%;
+}
+.fourth_container{
+  padding: 70px;
+}
+.text_box{
+  background-color: #3882F6;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+.picture_row{
+  display: flex;
+  justify-content: space-between;
+}
+.picture_row div{
+  width: 156px;
+  height: auto;
+  margin: 10px;
+}
+.picture_row div div{
+  width: 156px;
+  height: 156px;
+  border: solid #3882F6 5px;
+  border-radius: 10px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.footer{
+  background-color: #1F2937;
+  color: white;
+  height: 100px;
+  align-items: center;
+  
+}
+.side_text{
+  max-width: 400px;
+}
+
